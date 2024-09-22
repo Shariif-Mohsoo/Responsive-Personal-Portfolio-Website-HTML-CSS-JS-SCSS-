@@ -1,0 +1,98 @@
+.contact
+{
+    &__left
+    {
+        flex-basis: 35%;
+    }
+    &__text
+    {
+        margin-top: 3rem;
+        font-size: 1.9rem;
+    }
+    &__num
+    {
+        margin-top: 3rem;
+        font-size: 1.9rem;
+    }
+    &__social
+    {
+        margin-top: 3rem;
+        &-link
+        {
+            margin-right: 1.5rem;
+            display: inline-block;
+        }
+        &-icon
+        {
+            fill: $color-white;
+            height: 4rem;
+            width: 4rem;
+            &--1,
+            &--2
+            {
+                fill: $color-red;
+                height: 1.8rem;
+                width: 1.8rem;
+            }
+            transition: all .3s ease;
+        }
+        &-link:hover &-icon
+        {
+            fill:$color-red;
+            transform: translateY(-.5rem);
+        }
+    }
+    &__right
+    {
+        flex-basis: 60%;
+    }
+    &__block
+    {
+        background-color: #ff00;
+        width: 90%;
+    }
+    &__form
+    {
+        &-input
+        {
+            transition: all .3s;
+        }
+        &-input:invalid
+        {
+            border: .2rem solid $color-red;
+        }
+        &-input:valid
+        {
+            border: .2rem solid greenyellow;
+        }
+        &-input,
+        &-textarea
+        {
+            width: 100%;
+            border: 0;
+            outline: none;
+            background: #262626;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            color: $color-white;
+            font-size: 1.8rem;
+            border-radius: .6rem;
+        }
+        .btn-2
+        {
+            padding: 1.4rem 6rem;
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+//BUTTON
+.btn-2
+{
+    display: inline-block;
+    background-color: $color-red;
+    margin-top: 3rem;
+    cursor: pointer;
+}

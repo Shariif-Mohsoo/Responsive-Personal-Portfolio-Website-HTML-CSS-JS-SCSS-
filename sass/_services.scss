@@ -1,0 +1,66 @@
+#section__services
+{
+    padding: 3rem 0;
+}
+.services
+{
+   &__list
+   {
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+     grid-gap: 4rem;
+   }
+   &__block
+   {
+    background-color: #262626;
+    padding: 4rem;
+    font-weight: 300;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+    p
+    {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    &:hover
+    {
+        background-color: $color-red;
+        transform: translateY(-1rem);
+    }
+   }
+   &__icon
+   {
+        margin-bottom: 3rem;
+        &--1
+        {
+            height: 5rem;
+            width: 5rem;
+            fill: $color-white;
+        }
+
+   }
+   &__heading
+   {
+        &-main
+        {
+            font-size: 6rem;
+            padding: 5rem 0;
+            text-transform: uppercase;
+        }
+        font-size: 3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        margin-bottom: 1.5rem;
+   }
+
+   &__link
+   {
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        display: inline-block;
+        color: $color-white;
+    }
+
+}

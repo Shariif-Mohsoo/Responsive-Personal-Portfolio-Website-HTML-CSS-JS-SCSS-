@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+
+        <div class="container">
+
+            <nav class="navigation">
+                <div class="header__logo">
+                    <h2 class="heading-2"><span class="header__span">M</span>ohsin.</h2>
+                </div>
+                <input type="checkbox" class="navigation__input" name="checkbox" id="check">
+                <label for="check" class="navigation__label"><span class="navigation__button"></span></label>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Portfolio</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__text">
+                <p class="header__profession">FrontEnd Developer</p>
+                <h1 class="heading-1 heading-1-small">Hi, I'm <span class="header__span">M.MOHSIN</span> <br>From
+                    Pakistan</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="section__about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <div class="about__img">
+                            <img src="./image/image.png" class="image" alt="My Photo">
+                        </div>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="heading-2">About Me</h1>
+                        <p class="about__title">
+                            Firstly, Asslam o Alaikum! My name is M.Mohsin. I am the bachlors student in IST. I have
+                            completed my ICS(PHY) 12th from PUNJAB COLLEGE, on the other hand i have completed my MATRIC
+                            from APS.
+                            Now i have basic commmand on front end development. I can build fully responsive web
+                            pages/websites.
+                        </p>
+                        <div class="about__titles">
+                            <p class="about__links about__links-active" title="skill">Skills</p>
+                            <p class="about__links" title="experience">Experience</p>
+                            <p class="about__links" title="education">Education</p>
+                        </div>
+
+                        <div id="skill" class="about__contents about__contents-active">
+                            <ul class="about__item">
+                                <li class="about__list"><span>HTML/CSS</span><br>Responsive Webpages</li>
+                                <li class="about__list"><span>JS/REACT</span><br>Responsive Webpages</li>
+                                <li class="about__list"><span>Front End Development</span><br>Responsive Webpages</li>
+                            </ul>
+                        </div>
+                        <div id="experience" class="about__contents">
+                            <ul class="about__item">
+                                <li class="about__list"><span>HTML/CSS</span><br>1 Year</li>
+                                <li class="about__list"><span>JS/REACT</span><br>1 Year</li>
+                                <li class="about__list"><span>Front End Development</span><br>2 Years</li>
+                            </ul>
+                        </div>
+                        <div id="education" class="about__contents">
+                            <ul class="about__item">
+                                <li class="about__list"><span>MATRIC</span><br>APS Kahuta</li>
+                                <li class="about__list"><span>INTERMEDIATE</span><br>Punjab College Kahuta</li>
+                                <li class="about__list"><span>BACHLORS</span><br>Currently Completing From IST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section__services">
+            <div class="container">
+                <h1 class="services__heading-main">My Services</h1>
+                <div class="services__list">
+                    <div class="services__block">
+                        <div class="services__icon">
+                            <svg class="services__icon--1">
+                                <use href="./image/sprite.svg#icon-code"></use>
+                            </svg>
+                        </div>
+                        <h2 class="services__heading">HTML/Css Webpages</h2>
+                        <p>I can create simple web pages via html and css only on the requirements of client</p>
+                        <a href="#" class="services__link">Learn More</a>
+                    </div>
+                    <div class="services__block">
+                        <div class="services__icon">
+                            <svg class="services__icon--1">
+                                <use href="./image/sprite.svg#icon-code"></use>
+                            </svg>
+                        </div>
+                        <h2 class="services__heading">JS/Scss Webpages</h2>
+                        <p>I can create complex fully responsive web sites via html,css,scss and js only on the
+                            requirements of client</p>
+                        <a href="#" class="services__link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section__portfolio">
+            <div class="container">
+                <h1 class="heading-1">My Work</h1>
+                <div class="work">
+                    <div class="work__list">
+                        <div class="work__item">
+                            <img src="./image/first.jpg" class="work__image" alt="My First Work">
+                            <div class="work__layer">
+                                <h3 class="work__heading">Natours Web App</h3>
+                                <p class="work__text">This web will connect you with many people and you will enjoy the
+                                    natour.From there you will see the natour.</p>
+                                <a href="#" class="work__link">
+                                    <svg class="work__icon">
+                                        <use href="./image/sprite.svg#icon-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <img src="./image/two.jpg" class="work__image" alt="My Second Work">
+                            <div class="work__layer">
+                                <h3 class="work__heading">Trillo Web App</h3>
+                                <p class="work__text">This web app is most popular tour booking app; so that you can
+                                    visit different places.Here you will tour around the world</p>
+                                <a href="#" class="work__link">
+                                    <svg class="work__icon">
+                                        <use href="./image/sprite.svg#icon-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <img src="./image/third.png" class="work__image" alt="My Third Work">
+                            <div class="work__layer">
+                                <h3 class="work__heading">Nexter Web App</h3>
+                                <p class="work__text">This web app will show you different beautiful homes and
+                                    also recommend you some really experienced realtors.</p>
+                                <a href="#" class="work__link">
+                                    <svg class="work__icon">
+                                        <use href="./image/sprite.svg#icon-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </section>
+        <section id="section__contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact__left">
+                        <h1 class="heading-1">
+                            Contact Me
+                        </h1>
+                        <p class="contact__text">
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon contact__social-icon--1">
+                                    <use href="./image/sprite.svg#icon-email"></use>
+                                </svg>
+                            </a>
+                            mr8781256@gmail.com
+                        </p>
+                        <p class="contact__num">
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon contact__social-icon--2">
+                                    <use href="./image/sprite.svg#icon-phone"></use>
+                                </svg>
+                            </a>
+                            +923201154354
+                        </p>
+                        <div class="contact__social">
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon">
+                                    <use href="./image/sprite.svg#icon-facebook-with-circle"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon">
+                                    <use href="./image/sprite.svg#icon-instagram-with-circle"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon">
+                                    <use href="./image/sprite.svg#icon-github-with-circle"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="contact__social-link">
+                                <svg class="contact__social-icon">
+                                    <use href="./image/sprite.svg#icon-linkedin-with-circle"></use>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <a href="#" download class="btn btn-2">Download CV</a>
+
+                    </div>
+                    <div class="contact__right">
+                        <div class="contact__block">
+                            <form action="#" class="contact__form">
+                                <input type="text" name="Name" class="contact__form-input" placeholder="Your Name"
+                                    required>
+                                <input type="email" name="email" class="contact__form-input" placeholder="Your Email"
+                                    required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"
+                                    class="contact__form-textarea"></textarea>
+                                <button type="submit" class="btn btn-2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">
+                Copyright &copy; 2024 By Muhammad Mohsin.
+            </p>
+        </div>
+    </footer>
+    <script src=" js/script.js">
+    </script>
+</body>
+
+</html>

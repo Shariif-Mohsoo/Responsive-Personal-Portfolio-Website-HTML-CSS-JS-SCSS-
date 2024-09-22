@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html
+{
+    font-size: 62.5%; //1rem is 10px
+}
+body
+{
+    background-color: $color-lightBlack;
+    color: $color-white;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/image.png);
+    background-position:110% 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 60% 100%;
+
+    &__logo
+    {
+        display: inline-block;
+        // background: #fff;
+    }
+    &__text
+    {
+        margin-top: 20%;
+        font-size: 3rem;
+    }
+    &__span
+    {
+        color: $color-red;
+    }
+    &__profession
+    {
+        @media only screen and (max-width:31.5em)
+        {
+            font-size: 1.7rem;
+        }
+    }
+}
+//TODO: TYPOGRAPHY
+.heading-1
+{
+    font-size: 6rem;
+    margin-top: 3rem;
+    &-small
+    {
+        @media only screen and (max-width:50em)
+        {
+            font-size: 3rem;
+        }
+        @media only screen and (max-width:31.5em)
+        {
+            font-size: 1.7rem;
+        }
+    }
+}
+.heading-2
+{
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    span
+    {
+        font-size: 5rem;
+        font-weight: 900;
+    }
+}
+//FIXME: FOOTER
+.footer
+{
+    padding: 3rem;
+    background-color: #262626;
+    &__copyright
+    {
+        text-align: center;
+        &-text
+        {
+            font-size: 3rem;
+            color: $color-white;
+            @media only screen and (max-width:36.5em)
+            {
+                font-size: 2rem;
+            }
+        }
+    }
+}
